@@ -4,7 +4,8 @@
 * {
     margin: 0;
     padding: 0;
-    }
+}
+
 body {
     min-height: 100vh;
     background-color: darkgray;
@@ -15,6 +16,7 @@ header {
     text-align: center;
     width: 100%;
 }
+
 h1 {
     color: white;
     font-variant: small-caps;
@@ -23,9 +25,10 @@ h1 {
     padding: 30px 0px 30px 0px 
 
 }
+
 header > p {
     color: white;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     padding-bottom: 10px;
 }
 
@@ -39,35 +42,46 @@ a:hover {
     text-decoration: underline;
 }
 
-main {
-    font-family: 'Sriracha', sans-serif;
-    font-size: 2vw;
-}
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 40px;
+    font-family: 'Sriracha', sans-serif;
+    font-size: 3vw;
 }
+
+section > p {
+    padding-bottom: 50px;
+}
+
 .normal {
     background-color: white;
+
 }
+
 #imagem1 {
     background-image: url(imagens/background001.jpg);
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
+    box-shadow: inset 5px 0px 10px 6px rgba(0, 0, 0, 0.712);
     
 }
-.black > p {
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 400px;
-    color: white;
-}
+
 #imagem2 {
     background-image: url(imagens/background002.jpg);
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
+    box-shadow: inset 5px 0px 10px 6px rgba(0, 0, 0, 0.712);
+}
+
+.black > p {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    color: white;
+    padding: 0px 15px 0px 15px;
+    text-shadow: 2px 2px 0px black;
 }
